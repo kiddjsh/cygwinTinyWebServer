@@ -1204,6 +1204,8 @@ void serve_dynamic(int fd, char *filename, char *cgiargs)
 }
 ```
 
+# Compiling the program, and starting the listener
+
 ![cygwinExecution](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/cygwinExecution.PNG)
 
 ![directoryFiles](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/directoryFiles.PNG)
