@@ -997,7 +997,7 @@ The doit function handles one HTTP transaction, reading and parseing the request
 
 ```c
 /*
- * doit - Handles one HTTP request/response transaction
+ * Tiny doit: Handles one HTTP transaction.
  */
  
 void doit(int fd) 
@@ -1046,13 +1046,13 @@ void doit(int fd)
 }
 ```
 
-# The clienterror Function\
+# The clienterror Function
 
 Tiny lacks many of the error handling features of a real server. However, it does check for some obvious errors and reports them to the client. The clienterror function sends an HTTP response to the client with the appropriate status code and status message in the response line, along with an HTML file in the response body that explains the error to the browser’s user.
 
 ```c
 /*
- * clienterror - Returns an error message to the client
+ * Tiny clienterror: Sends an error message to the client.
  */
 
 void clienterror(int fd, char *cause, char *errnum, 
@@ -1078,6 +1078,130 @@ void clienterror(int fd, char *cause, char *errnum,
 }
 ```
 
+# The read_requesthdrs Function
+
+Tiny does not use any of the information in the request headers. Tiny reads and ignores them by calling the read_requesthdrs function, the empty text line that terminates the request headers consists of a carriage return and line feed pair, which is checked for in line 6.
+
+```c
+/*
+ * Tiny read_requesthdrs: Reads and ignores request headers.
+ */
+ 
+ void read_requesthdrs(rio_t *rp) 
+{
+    char buf[MAXLINE];
+
+    rio_readlineb(rp, buf, MAXLINE);
+    printf("%s", buf);
+    while(strcmp(buf, "\r\n")) {
+	rio_readlineb(rp, buf, MAXLINE);
+	printf("%s", buf);
+    }
+    return;
+}
+```
+
+# The parse_uri Function
+
+Tiny assumes that the home directory for static content is its current directory, and that the home directory for executables is ./cgi-bin. Any URI that contains the string cgi-bin is assumed to denote a request for dynamic content. The default file name is ./home.html.
+
+The parse_uri function implements these policies. The function parses the URI into a file name and an optional CGI argument string. 
+--If the request is for static content (line 5), the function clears the CGI argument string (line 6) and then converts the URI into a relative Unix pathname such as ./index.html (lines 7– 8). 
+--If the URI ends with a ‘/’ character (line 9), the function appends the default file name (line 10). 
+--If the request is for dynamic content (line 13), the function extracts any CGI arguments (lines 14–20) and converts the remaining portion of the URI to a relative Unix file name (lines 21–22).
+
+```c
+/*
+ * Tiny parse_uri: Parses an HTTP URI and CGI ARGS
+ *                 Returns 0 if dynamic content, 1 if static
+ */
+ 
+int parse_uri(char *uri, char *filename, char *cgiargs) 
+{
+    char *ptr;
+
+    if (!strstr(uri, "cgi-bin")) {  /* Static content */
+	strcpy(cgiargs, "");
+	strcpy(filename, ".");
+	strcat(filename, uri);
+	if (uri[strlen(uri)-1] == '/')
+	    strcat(filename, "home.html");
+	return 1;
+    }
+    else {  /* Dynamic content */
+	ptr = index(uri, '?');
+	if (ptr) {
+	    strcpy(cgiargs, ptr+1);
+	    *ptr = '\0';
+	}
+	else 
+	    strcpy(cgiargs, "");
+	strcpy(filename, ".");
+	strcat(filename, uri);
+	return 0;
+    }
+}
+```
+
+# The serve_static Function
+
+Tiny serves four different types of static content: HTML files, unformatted text files, and images encoded in GIF and JPEG formats. The serve_static function sends an HTTP response whose body contains the contents of a local file. The function determines the file type by inspecting the suffix in the file name (line 7) and then send the response line and response headers to the client (lines 8–12). A blank line terminates the headers.
+
+```c
+/*
+ * Tiny serve_static: Serves static content to a client (copies a file back to client). 
+ */
+
+void serve_static(int fd, char *filename, int filesize) 
+{
+    int srcfd;
+    char *srcp, filetype[MAXLINE], buf[MAXBUF];
+ 
+    /* Send response headers to client */
+    get_filetype(filename, filetype);
+    sprintf(buf, "HTTP/1.0 200 OK\r\n");
+    sprintf(buf, "%sServer: Tiny Web Server\r\n", buf);
+    sprintf(buf, "%sContent-length: %d\r\n", buf, filesize);
+    sprintf(buf, "%sContent-type: %s\r\n\r\n", buf, filetype);
+    rio_writen(fd, buf, strlen(buf));
+
+    /* Send response body to client */
+    srcfd = open(filename, O_RDONLY, 0);
+    srcp = mmap(0, filesize, PROT_READ, MAP_PRIVATE, srcfd, 0);
+    close(srcfd);
+    rio_writen(fd, srcp, filesize);
+    munmap(srcp, filesize);
+}
+```
+
+# The serve_dynamic Function
+
+Tiny serves any type of dynamic content by forking a child process, and then running a CGI program in the context of the child. The serve_dynamic function begins by sending a response line indicating success to the client, along with an informational Server header. The CGI program is responsible for sending the rest of the response. 
+
+```c
+/*
+ * Tiny serve_dynamic: Serves dynamic content to a client (runs a CGI program on behalf of the client).
+ */
+
+void serve_dynamic(int fd, char *filename, char *cgiargs) 
+{
+    char buf[MAXLINE], *emptylist[] = { NULL };
+
+    /* Return first part of HTTP response */
+    sprintf(buf, "HTTP/1.0 200 OK\r\n");
+    rio_writen(fd, buf, strlen(buf));
+    sprintf(buf, "Server: Tiny Web Server\r\n");
+    rio_writen(fd, buf, strlen(buf));
+  
+    if (fork() == 0) { /* child */
+	/* Real server would set all CGI vars here */
+	setenv("QUERY_STRING", cgiargs, 1); 
+	dup2(fd, STDOUT_FILENO);         /* Redirect stdout to client */
+	execve(filename, emptylist, environ); /* Run CGI program */
+    }
+    wait(NULL); /* Parent waits for and reaps child */
+}
+```
 
 ![cygwinExecution](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/cygwinExecution.PNG)
 
