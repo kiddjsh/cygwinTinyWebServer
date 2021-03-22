@@ -462,190 +462,255 @@ void clienterror(int fd, char *cause, char *errnum,
 		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
 		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
 		こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:140;top:5;font-family:Cursive;font-size:35pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:145;top:6;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>	
-	<h1><marquee style="z-index:2;position:absolute;left:165;top:4;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:170;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:175;top:6;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:190;top:3;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:195;top:5;font-family:Cursive;font-size:4pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:200;top:8;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:205;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:210;top:6;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>	
-	<h1><marquee style="z-index:2;position:absolute;left:225;top:2;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:230;top:5;font-family:Cursive;font-size:15pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:235;top:6;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:245;top:4;font-family:Cursive;font-size:20pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:250;top:2;font-family:Cursive;font-size:25pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:255;top:8;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:265;top:5;font-family:Cursive;font-size:50pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:275;top:6;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:295;top:4;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:300;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:305;top:6;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:310;top:3;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:330;top:5;font-family:Cursive;font-size:4pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:335;top:8;font-family:Cursive;font-size:20pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:340;top:2;font-family:Cursive;font-size:15pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:350;top:6;font-family:Cursive;font-size:20pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /></marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:350;top:3;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /></marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:140;top:5;font-family:Cursive;font-size:35pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:145;top:6;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>	
+	<h1><marquee style="z-index:2;position:absolute;left:165;top:4;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:170;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:175;top:6;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:190;top:3;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />
+		リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />
+		ク<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:195;top:5;font-family:Cursive;font-size:4pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:200;top:8;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:205;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:210;top:6;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />
+		リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />
+		ク<br /> </marquee></h1>	
+	<h1><marquee style="z-index:2;position:absolute;left:225;top:2;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:230;top:5;font-family:Cursive;font-size:15pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:235;top:6;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:245;top:4;font-family:Cursive;font-size:20pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:250;top:2;font-family:Cursive;font-size:25pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:255;top:8;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:265;top:5;font-family:Cursive;font-size:50pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:275;top:6;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:295;top:4;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:300;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />
+		リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />
+		ク<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:305;top:6;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:310;top:3;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:330;top:5;font-family:Cursive;font-size:4pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:335;top:8;font-family:Cursive;font-size:20pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ
+		<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
+		<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:340;top:2;font-family:Cursive;font-size:15pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:350;top:6;font-family:Cursive;font-size:20pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br /></marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:350;top:3;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br /></marquee></h1>
 	
-	<h1><marquee style="z-index:2;position:absolute;left:355;top:8;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:365;top:2;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="4" 
-	direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
-		<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:370;top:2;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="8" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:375;top:8;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:380;top:3;font-family:Cursive;font-size:16pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:415;top:4;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:420;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
+	<h1><marquee style="z-index:2;position:absolute;left:355;top:8;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:365;top:2;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:370;top:2;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="8" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:375;top:8;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:380;top:3;font-family:Cursive;font-size:16pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:415;top:4;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:420;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:425;top:6;font-family:Cursive;font-size:9pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:450;top:3;font-family:Cursive;font-size:16pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:455;top:5;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:465;top:8;font-family:Cursive;font-size:4pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:470;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:475;top:6;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>	
+	<h1><marquee style="z-index:2;position:absolute;left:495;top:4;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:500;top:5;font-family:Cursive;font-size:15pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:505;top:6;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:520;top:3;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:525;top:5;font-family:Cursive;font-size:4pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:530;top:8;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う	<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:535;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:540;top:6;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>	
+	<h1><marquee style="z-index:2;position:absolute;left:555;top:2;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:560;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:565;top:6;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:575;top:4;font-family:Cursive;font-size:6pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:580;top:2;font-family:Cursive;font-size:4pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:585;top:8;font-family:Cursive;font-size:40pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ
+		<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:595;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:605;top:6;font-family:Cursive;font-size:15pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:625;top:4;font-family:Cursive;font-size:7pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:630;top:5;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="6" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:635;top:6;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="4" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
 		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:425;top:6;font-family:Cursive;font-size:9pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:450;top:3;font-family:Cursive;font-size:16pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:455;top:5;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:465;top:8;font-family:Cursive;font-size:4pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:470;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:475;top:6;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>	
-	<h1><marquee style="z-index:2;position:absolute;left:495;top:4;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:500;top:5;font-family:Cursive;font-size:15pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:505;top:6;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:520;top:3;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:525;top:5;font-family:Cursive;font-size:4pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:530;top:8;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:535;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:540;top:6;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>	
-	<h1><marquee style="z-index:2;position:absolute;left:555;top:2;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:560;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク
-		<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:565;top:6;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:575;top:4;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:580;top:2;font-family:Cursive;font-size:4pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:585;top:8;font-family:Cursive;font-size:40pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:595;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:605;top:6;font-family:Cursive;font-size:15pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:625;top:4;font-family:Cursive;font-size:7pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:630;top:5;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="6" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:635;top:6;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="4" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:640;top:3;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:660;top:5;font-family:Cursive;font-size:10pt;color:00ff00;height:650;"scrollamount="7" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:665;top:8;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う
-		<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:670;top:2;font-family:Cursive;font-size:5pt;color:00ff00;height:650;"scrollamount="3" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> </marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:680;top:6;font-family:Cursive;font-size:8pt;color:00ff00;height:650;"scrollamount="2" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /></marquee></h1>
-	<h1><marquee style="z-index:2;position:absolute;left:680;top:3;font-family:Cursive;font-size:3pt;color:00ff00;height:650;"scrollamount="5" 
-		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
-		<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /></marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:640;top:3;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:660;top:5;font-family:Cursive;font-size:10pt;color:00ff00;
+		height:650;"scrollamount="7" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:665;top:8;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ
+		<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br /> 
+		</marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:670;top:2;font-family:Cursive;font-size:5pt;color:00ff00;
+		height:650;"scrollamount="3" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br /> </marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:680;top:6;font-family:Cursive;font-size:8pt;color:00ff00;
+		height:650;"scrollamount="2" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br /></marquee></h1>
+	<h1><marquee style="z-index:2;position:absolute;left:680;top:3;font-family:Cursive;font-size:3pt;color:00ff00;
+		height:650;"scrollamount="5" direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />
+		よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />
+		こ<br />そ<br /></marquee></h1>
 
 	<h1><marquee style="z-index:2;position:absolute;left:685;top:8;font-family:Cursive;font-size:6pt;color:00ff00;height:650;"scrollamount="5" 
 		direction="down"> マ<br />ト<br />リ<br />ッ<br />ク<br />ス<br />へ<br />よ<br />う<br />こ<br />そ<br />マ<br />ト<br />リ<br />ッ
