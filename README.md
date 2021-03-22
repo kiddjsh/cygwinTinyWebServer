@@ -1,7 +1,11 @@
 # cygwinTinyWebServer
-A small networking program that develops a functioning web server called TINY, that uses process controls, Unix I/O, the sockets interface and HTTP, though lacks standard security protocols. The web server, serves both a static and dynamic content to real web browsers. 
+A small networking program that develops a functioning web server called TINY, that uses process controls, Unix I/O, the sockets interface and HTTP, though lacks standard security protocols. The web server, serves both static and dynamic content to real web browsers. 
 
 ![Web Server](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/rainingMarquee.PNG)
+
+![Web Server]()
+
+![Web Server]()
 
 
 # The TINY main Routine
