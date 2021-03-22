@@ -1046,7 +1046,37 @@ void doit(int fd)
 }
 ```
 
+# The clienterror Function\
 
+Tiny lacks many of the error handling features of a real server. However, it does check for some obvious errors and reports them to the client. The clienterror function sends an HTTP response to the client with the appropriate status code and status message in the response line, along with an HTML file in the response body that explains the error to the browser’s user.
+
+```c
+/*
+ * clienterror - Returns an error message to the client
+ */
+
+void clienterror(int fd, char *cause, char *errnum, 
+		 char *shortmsg, char *longmsg) 
+{
+    char buf[MAXLINE], body[MAXBUF];
+
+    /* Build the HTTP response body */
+    sprintf(body, "<html><title>Tiny Error</title>");
+    sprintf(body, "%s<body bgcolor=""ffffff"">\r\n", body);
+    sprintf(body, "%s%s: %s\r\n", body, errnum, shortmsg);
+    sprintf(body, "%s<p>%s: %s\r\n", body, longmsg, cause);
+    sprintf(body, "%s<hr><em>The Tiny Web server</em>\r\n", body);
+
+    /* Print the HTTP response */
+    sprintf(buf, "HTTP/1.0 %s %s\r\n", errnum, shortmsg);
+    rio_writen(fd, buf, strlen(buf));
+    sprintf(buf, "Content-type: text/html\r\n");
+    rio_writen(fd, buf, strlen(buf));
+    sprintf(buf, "Content-length: %d\r\n\r\n", (int)strlen(body));
+    rio_writen(fd, buf, strlen(buf));
+    rio_writen(fd, body, strlen(body));
+}
+```
 
 
 ![cygwinExecution](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/cygwinExecution.PNG)
