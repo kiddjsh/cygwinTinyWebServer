@@ -1080,7 +1080,7 @@ void clienterror(int fd, char *cause, char *errnum,
 
 # The read_requesthdrs Function
 
-Tiny does not use any of the information in the request headers. Tiny reads and ignores them by calling the read_requesthdrs function, the empty text line that terminates the request headers consists of a carriage return and line feed pair, which is checked for in line 6.
+Tiny does not use any of the information in the request headers. Tiny reads and ignores them by calling the read_requesthdrs function, the empty text line that terminates the request headers consists of a carriage return and line feed pair.
 
 ```c
 /*
@@ -1105,10 +1105,11 @@ Tiny does not use any of the information in the request headers. Tiny reads and 
 
 Tiny assumes that the home directory for static content is its current directory, and that the home directory for executables is ./cgi-bin. Any URI that contains the string cgi-bin is assumed to denote a request for dynamic content. The default file name is ./home.html.
 
-The parse_uri function implements these policies. The function parses the URI into a file name and an optional CGI argument string. 
---If the request is for static content (line 5), the function clears the CGI argument string (line 6) and then converts the URI into a relative Unix pathname such as ./index.html (lines 7– 8). 
---If the URI ends with a ‘/’ character (line 9), the function appends the default file name (line 10). 
---If the request is for dynamic content (line 13), the function extracts any CGI arguments (lines 14–20) and converts the remaining portion of the URI to a relative Unix file name (lines 21–22).
+The parse_uri function implements these policies. The function parses the URI into a file name and an optional CGI argument string.
+
+---If the request is for static content, the function clears the CGI argument string and then converts the URI into a relative Unix pathname such as ./index.html. 
+---If the URI ends with a ‘/’ character, the function appends the default file name. 
+---If the request is for dynamic content, the function extracts any CGI arguments and converts the remaining portion of the URI to a relative Unix file name.
 
 ```c
 /*
@@ -1145,7 +1146,7 @@ int parse_uri(char *uri, char *filename, char *cgiargs)
 
 # The serve_static Function
 
-Tiny serves four different types of static content: HTML files, unformatted text files, and images encoded in GIF and JPEG formats. The serve_static function sends an HTTP response whose body contains the contents of a local file. The function determines the file type by inspecting the suffix in the file name (line 7) and then send the response line and response headers to the client (lines 8–12). A blank line terminates the headers.
+Tiny serves four different types of static content: HTML files, unformatted text files, and images encoded in GIF and JPEG formats. The serve_static function sends an HTTP response whose body contains the contents of a local file. The function determines the file type by inspecting the suffix in the file name and then send the response line and response headers to the client. A blank line terminates the headers.
 
 ```c
 /*
