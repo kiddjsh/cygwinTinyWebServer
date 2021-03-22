@@ -3,9 +3,9 @@ A small networking program that develops a functioning web server called TINY, t
 
 ![Web Server](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/rainingMarquee.PNG)
 
-![Web Server]()
+![directoryFiles](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/directoryFiles.PNG)
 
-![Web Server]()
+![cygwinExecution](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/cygwinExecution.PNG)
 
 
 # The TINY main Routine
