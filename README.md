@@ -1204,7 +1204,7 @@ void serve_dynamic(int fd, char *filename, char *cgiargs)
 }
 ```
 
-# Compiling the program, and starting the listener
+# DNS mapping, program compilation, and executing listener
 
 ![cygwinExecution](https://raw.githubusercontent.com/kiddjsh/cygwinTinyWebServer/main/images/cygwinExecution.PNG)
 
